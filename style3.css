@@ -1,0 +1,136 @@
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+ul li img{
+    width:150px;
+    height:150px;
+    float: right;
+    border-radius: 80px;
+}
+
+header {
+    background-color: rgb(13, 3, 29);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 650px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    width: 100wh;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+#name{
+    height: 100vh;
+    background: linear-gradient(135deg, #cff29b, #dfdf72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#name .name-content{
+    font-size: 3em;
+    margin: 0;
+}
+
+#name .home-content span{
+    color: rgb(29, 45, 223);
+}
+
+.profile-photo {
+    margin-top: 10px;
+    width: 5px;
+    height: 15px;
+    border-radius: 20%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+#about {
+    height: 100vh;
+    padding: 50px;
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(71, 203, 226);
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+#certifications{
+    height: 100vh;
+    padding: 50px;
+    background-color: rgb(43, 156, 43);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#languagesknown{
+    height: 100vh;
+    padding: 50px;
+    background-color: rgb(57, 177, 210);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#projects{
+    height: 100vh;
+    padding: 50px;
+    background-color: rgb(171, 36, 36);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
